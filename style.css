@@ -1,0 +1,55 @@
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Share Tech Mono', monospace;
+ */
+
+.wrapper {
+    width: 80%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header p {
+    font-size: 2em;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.pic img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+hr {
+    border: 4px solid black;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
+.links img {
+    width: 1.2em;
+    margin: 0 2px;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
